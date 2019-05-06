@@ -8,7 +8,7 @@
     "password": "m",
     "method": "rc4-md5",
     "protocol": "autn_chain_a",
-    "protocol_param": "",
+    "protocol_param": "1",
     "obfs": "http_simple",
     "obfs_param": "api.mobile.youku.com",
     "speed_limit_per_con": 0,
