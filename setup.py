@@ -6,7 +6,7 @@ with codecs.open('README.rst', encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name="shadowsocks",
+    name="gos",
     version="2.6.12",
     license='http://www.apache.org/licenses/LICENSE-2.0',
     description="A fast tunnel proxy that help you get through firewalls",
@@ -21,7 +21,7 @@ setup(
     entry_points="""
     [console_scripts]
     sslocal = shadowsocks.local:main
-    ssserver = shadowsocks.server:main
+    gosserver = shadowsocks.server:main
     """,
     classifiers=[
         'License :: OSI Approved :: Apache Software License',
