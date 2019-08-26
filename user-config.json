@@ -16,32 +16,16 @@
 
     "additional_ports" : {
     "443": {
-        "passwd": "f-ya.cn",
+        "passwd": "6cr1a48y",
         "method": "rc4-md5",
         "protocol": "auth_chain_a",
         "protocol_param": "#",
         "obfs": "http_simple",
-        "obfs_param": "api.mobile.youku.com"
-    },
-    "80": {
-        "passwd": "f-ya.cn",
-        "method": "none",
-        "protocol": "auth_chain_a",
-        "protocol_param": "#",
-        "obfs": "http_simple_compatible",
-        "obfs_param": ""
-    },
-    "8080": {
-        "passwd": "f-ya.cn",
-        "method": "none",
-        "protocol": "auth_chain_a",
-        "protocol_param": "#",
-        "obfs": "http_simple_compatible",
         "obfs_param": ""
     }
 
 }, // only works under multi-user mode
-    "additional_ports_only" : false, // only works under multi-user mode
+    "additional_ports_only" : true, // only works under multi-user mode
     "timeout": 120,
     "udp_timeout": 60,
     "dns_ipv6": false,
